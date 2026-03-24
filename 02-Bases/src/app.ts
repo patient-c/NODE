@@ -16,19 +16,14 @@
 // 05 - console.log(john)
 
 // const {getCharacterById} = require('./js-foundation/06-promises')
-import { getCharacterById } from "./js-foundation/06-promises";
-import { buildLogger } from "./plugins/logger-plugin";
+//import { getCharacterById } from "./js-foundation/06-promises";
+//import { buildLogger } from "./plugins/logger-plugin";
 // 
-const logger = buildLogger('app.js')
+// const logger = buildLogger('app.js')
+// 
+// logger.log('Hola mundo')
+// logger.error('Esto es algo malo')
 
-logger.log('Hola mundo')
-logger.error('Esto es algo malo')
-
-
-getCharacterById(1)
-.then((character) => console.log({character}))
-.catch( (err) => console.error(err))
-.finally(() => console.log('Finalmente'))
 
 // getCharacterById(1)
 // .then((character) => console.log({character}))
